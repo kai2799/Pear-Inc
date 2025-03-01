@@ -1,0 +1,95 @@
+﻿body {
+    font-family: "Roboto", sans-serif !important;
+}
+
+section {
+    width: 100% !important;
+}
+
+nav {
+    width: 100% !important;
+    margin: auto !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    background-color: #161617 !important;
+}
+
+    nav ul {
+        margin: 10px 0 !important;
+        padding: 0 !important;
+        color: #161617 !important;
+        font-weight: 900 !important;
+        text-align: center !important;
+        line-height: 45px !important;
+    }
+
+        nav ul li {
+            display: inline-block !important;
+            list-style: none !important;
+            margin: 10px 20px !important;
+            text-align: center !important;
+            padding-left: 25px !important;
+            display: inline !important;
+        }
+
+            nav ul li a {
+                text-decoration: none !important;
+                color: #606163 !important;
+            }
+
+                nav ul li a:hover {
+                    color: floralwhite !important;
+                }
+
+footer {
+    color: #161617;
+    font-weight: 900;
+    font-size: .85em;
+    text-align: center;
+    padding-right: 11px;
+    line-height: 45px;
+    height: 45px;
+    clear: both;
+}
+
+.button {
+    background-color: #222;
+    border-radius: 4px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0;
+    max-width: 200px;
+    min-height: 44px;
+    min-width: 10px;
+    outline: none;
+    overflow: hidden;
+    padding: 9px 20px 8px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+}
+
+    .button:hover,
+    .button:focus {
+        opacity: .75;
+    }
+
+.inputstyle {
+    height: 37px;
+}
+
+.forminput {
+    height: 30px;
+}

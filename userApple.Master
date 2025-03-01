@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="userApple.master.cs" Inherits="Grp.userApple" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="usermaster.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <section>
+    <nav>
+        <ul>
+            <li><a href="userDefault.aspx">Home</a></li>
+            <li><a href="userProduct.aspx">Product</a></li>
+            <li><a href="cart.aspx">Cart</a></li>
+            <li><a href="FAQ.aspx">Support</a></li>
+            <li><a href="profile.aspx">Profile</a></li>
+            <li><a href="Logout.aspx">Logout</a></li>
+        </ul>
+    </nav>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <footer><p>&copy; <%: DateTime.Now.Year %> - All copyrights reserved 2023</p></footer>
+    </section>
+</body>
+</html>

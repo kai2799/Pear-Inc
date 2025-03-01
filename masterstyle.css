@@ -1,0 +1,99 @@
+﻿body {
+    font-family: "Roboto", sans-serif;
+}
+
+section {
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #161617;
+}
+
+    nav ul {
+        margin: 10px 0;
+        padding: 0;
+        color: #161617;
+        font-weight: 900;
+        text-align: center;
+        line-height: 45px;
+    }
+
+        nav ul li {
+            display: inline-block;
+            list-style: none;
+            margin: 10px 20px;
+            text-align: center;
+            padding-left: 25px;
+            display: inline;
+        }
+
+            nav ul li a {
+                text-decoration: none;
+                color: #606163;
+            }
+
+                nav ul li a:hover {
+                    color: floralwhite;
+                }
+
+footer {
+    color: #161617;
+    font-weight: 900;
+    font-size: .85em;
+    text-align: center;
+    padding-right: 11px;
+    line-height: 45px;
+    height: 45px;
+    clear: both;
+}
+
+/*button for all page*/
+.button {
+    background-color: #222;
+    border-radius: 4px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0;
+    max-width: 200px;
+    min-height: 44px;
+    min-width: 10px;
+    outline: none;
+    overflow: hidden;
+    padding: 9px 20px 8px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+}
+
+    .button:hover,
+    .button:focus {
+        opacity: .75;
+    }
+
+.inputstyle {
+    height: 37px;
+}
+
+.forminput {
+    height: 30px;
+}
+
+
+
