@@ -1,6 +1,6 @@
 # 🍐 Pear Inc – eCommerce Web App  
 
-# 📌 Overview
+## 📌 Overview
 Pear Inc is a modern eCommerce web application inspired by the Apple retailer store, built using **ASP.NET, C#, JavaScript, and CSS**. It offers a seamless shopping experience with product browsing, cart functionality, real-time product updates, and order tracking.  
 
 ## ✨ Features  
